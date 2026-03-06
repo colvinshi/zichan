@@ -1,0 +1,15 @@
+# Git Commands - Copy and run in Git Bash
+
+cd D:/Cursor/zichanpandian2
+
+git init
+
+git add .
+
+git commit -m "feat: init asset management system"
+
+git remote add origin https://github.com/colvinshi/zichan.git
+
+git branch -M main
+
+git push -u origin main
