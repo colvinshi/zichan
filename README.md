@@ -149,3 +149,37 @@ git push -u origin main
 - 已登录 GitHub 账号"# zichan" 
 "# zichan" 
 "# zichan" 
+
+
+
+---
+
+## Docker 部署
+
+### 环境要求
+
+- Docker 20.10+
+- Docker Compose 2.0+
+
+### 部署步骤
+
+```bash
+# 1. 克隆代码
+git clone https://github.com/colvinshi/zichan.git
+cd zichan
+
+# 2. 进入Docker目录
+cd deploy/docker
+
+# 3. 启动服务
+docker-compose up -d
+```
+
+### 服务地址
+
+| 服务 | 地址 |
+|------|------|
+| 管理后台 | http://localhost:8888 |
+| RabbitMQ | http://localhost:15672 |
+
+详见 [Docker部署文档](./deploy/docker/DEPLOY.md)
