@@ -147,3 +147,4 @@ git push -u origin main
 - 安装 [Git](https://git-scm.com/)
 - 安装 [GitHub CLI](https://cli.github.com/) (可选)
 - 已登录 GitHub 账号"# zichan" 
+"# zichan" 
