@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "资产盘点",
+        "navigationBarBackgroundColor": "#409eff",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/asset/list",
+      "style": {
+        "navigationBarTitleText": "我的资产",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/asset/detail",
+      "style": {
+        "navigationBarTitleText": "资产详情"
+      }
+    },
+    {
+      "path": "pages/inventory/list",
+      "style": {
+        "navigationBarTitleText": "盘点任务",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/inventory/execute",
+      "style": {
+        "navigationBarTitleText": "执行盘点",
+        "navigationBarBackgroundColor": "#67c23a"
+      }
+    },
+    {
+      "path": "pages/user/profile",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "资产管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#409eff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/inventory/list",
+        "text": "盘点",
+        "iconPath": "static/tab-inventory.png",
+        "selectedIconPath": "static/tab-inventory-active.png"
+      },
+      {
+        "pagePath": "pages/asset/list",
+        "text": "资产",
+        "iconPath": "static/tab-asset.png",
+        "selectedIconPath": "static/tab-asset-active.png"
+      },
+      {
+        "pagePath": "pages/user/profile",
+        "text": "我的",
+        "iconPath": "static/tab-user.png",
+        "selectedIconPath": "static/tab-user-active.png"
+      }
+    ]
+  }
+}
